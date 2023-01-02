@@ -1,0 +1,7 @@
+.unorderedList {
+    list-style: "✍"inside;
+}
+
+.unorderedList__name {
+    font-weight: bold;
+}

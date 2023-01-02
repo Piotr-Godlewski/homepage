@@ -1,35 +1,5 @@
-
-.navigation {
-    border: 3px ridge darkblue;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    background-color: #a5c9f5;
-}
-
-.navigation__link {
-    border: 1px #fff solid;
-    border-radius: 5px;
-    color: #0d0d89;
-    text-decoration: none;
-    padding: 0px 10px;
-    line-height: 2;
-}
-
-.navigation__link:hover {
-    color: #0d0d89;
-    border: 1px solid;
-    outline: none;
-}
-
 .section__header {
     color: #0d0d89;
-}
-
-.header {
-    color: #060649f7;
-    text-align: center;
 }
 
 .section__girl {
@@ -51,64 +21,8 @@
     ;
 }
 
-.unorderedList {
-    list-style: "✍"inside;
-}
-
-.unorderedList__name {
-    font-weight: bold;
-}
-
-.tableContainer {
-    overflow-x: auto;
-}
-
-.table {
-    margin: auto;
-    text-align: center;
-    border-collapse: collapse;
-    vertical-align: middle;
-}
-
-.table__caption {
-    font-weight: bold;
-    font-style: italic;
-    line-height: 1.5;
-}
-
-.table__cell--header {
-    background-color: #619be3;
-}
-
-.table__cell {
-    border: 1px solid white;
-    padding: 8px;
-}
-
-.table__row:nth-child(even) {
-    background-color: #b1cbeb;
-}
-
-.table__row:hover {
-    background-color: #619be3;
-}
-
-.section__link {
-    color: #000;
-}
-
-.section__link:hover {
-    font-weight: bold;
-}
-
 .section__link--style {
     text-decoration: none;
     font-weight: bold;
     color: #1313d3;
-}
-
-.footer {
-    border-top: 1px solid #000;
-    padding: 5px;
-    margin: 10px;
 }
