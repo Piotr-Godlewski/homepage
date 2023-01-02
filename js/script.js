@@ -1,11 +1,17 @@
-let button = document.querySelector(".js-button");
-let photo = document.querySelector(".js-photo");
+{
+    const hidePhoto = () => {
+        const photo = document.querySelector(".js-photo");
+        const buttonText = document.querySelector(".js-buttonText");
 
-button.addEventListener("click", () => {
-    photo.classList.toggle("hidden");
-    if (photo.classList.contains("hidden")) {
-        button.innerText = "Zmieniłeś zdanie? Kliknij ponownie";
-    } else {
-        button.innerText = "Znów jestem 😁";
+        photo.classList.toggle("hidden");
+        buttonText.innerText = photo.classList.contains("hidden") ? "Zmieniłeś znadnie kliknij ponownie" : "Nie chcesz na mnie patrzeć? Kliknij";
     }
-});
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+
+        button.addEventListener("click", hidePhoto);
+    }
+
+    init();
+}
